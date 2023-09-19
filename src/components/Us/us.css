@@ -1,0 +1,34 @@
+.main-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-top: 100px;
+}
+
+.main-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.main-us-container-title {
+    width: 100%;
+}
+
+.main-us-container-subtitle {
+    width: 100%;
+    margin: 10px 0px 35px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .main-us-container {
+        padding: 60px;
+    }
+}

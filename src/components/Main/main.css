@@ -20,66 +20,17 @@
     margin-top: 20px;
 }
 
-.main-servicios {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1400px;
-    margin-top: 70px;
-    margin-bottom: 200px;
-}
-
-.main-servicios-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 30%;
-    margin: 20px;
-    min-height: 280px;
-    height: 100%;
-}
-
-.main-servicios-container-icon {
-    font-size: 70px;
-    color: #5BC82C;
-}
-
-.main-servicios-container-title {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.main-servicios-container-text {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-@media screen and (max-width: 1100px) {
-    .main-servicios-container {
-        width: 40%;
-    }
-}
-
 
 @media screen and (max-width: 836px) {
     .main-title {
         font-size: 35px;
-        margin-top: 100px;
+        margin-top: 0px;
+        padding-top: 100px;
     }
     
     .main-subtitle {
         margin-top: 20px;
         font-size: 25px;
-    }
-
-    .main-servicios-container {
-        width: 70%;
     }
 }
 
@@ -87,22 +38,10 @@
     .main-title {
         font-size: 30px;
         text-align: center;
-        margin: 100px 30px 0px 30px;
+        margin: 0px 30px;
     }
 
     .main-subtitle {
         font-size: 20px;
-    }
-
-    .main-servicios-container-icon {
-        font-size: 40px;
-    }
-
-    .main-servicios-container-title {
-        font-size: 25px;
-    }
-
-    .main-servicios-container-text {
-        font-size: 18px;
     }
 }
