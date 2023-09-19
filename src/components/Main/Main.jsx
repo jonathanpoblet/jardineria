@@ -3,10 +3,11 @@ import Services from '../Services/Services';
 import Us from '../Us/Us';
 
 import './main.css';
+import Contact from '../Contact/Contact';
 
 export default function Main() {
   return (
-    <main className='main'>
+    <main className='main fade-in'>
         <img className='main-banner' src='../../../public/assets/banner.png' alt='banner' />
 
         <h1 className='main-title' id='servicios'>Servicios de <span style={{color: '#5BC82C'}}>Jardinería</span> a Tu Medida</h1>
@@ -15,6 +16,8 @@ export default function Main() {
         <Services />
 
         <Us />
+
+        <Contact />
     </main>
   )
 }

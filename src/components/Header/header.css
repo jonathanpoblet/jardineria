@@ -1,5 +1,6 @@
 nav {
-    background-color: #fdfdfd;
+    background-color: #fdfdfd !important;
+    position: fixed;
 }
 
 .logo {

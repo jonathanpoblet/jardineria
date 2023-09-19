@@ -5,7 +5,7 @@
     align-items: center;
     width: 100%;
     background-color: #f5f5f5;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .main-us-container {
@@ -14,6 +14,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 100px;
+    padding-top: 0px;
     width: 100%;
     max-width: 1200px;
 }
@@ -27,8 +28,13 @@
     margin: 10px 0px 35px 0px;
 }
 
+.main-us-container-text{ 
+    font-size: 18px;
+}
+
 @media screen and (max-width: 600px) {
     .main-us-container {
         padding: 60px;
+        padding-top: 0px;
     }
 }

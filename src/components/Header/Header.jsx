@@ -3,7 +3,7 @@ import './header.css';
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-md fixed-top">
+    <nav className="navbar navbar-expand-md fixed-top fade-in">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img className='logo' src='../../../public/assets/logo.png' alt='logo' />
