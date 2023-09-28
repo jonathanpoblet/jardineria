@@ -6,7 +6,7 @@ export default function Header() {
     <nav className="navbar navbar-expand-md fixed-top fade-in">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img className='logo' src='../../../public/assets/logo.png' alt='logo' />
+          <img className='logo' src='./logo.png' alt='logo' />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
