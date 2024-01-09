@@ -1,5 +1,7 @@
 # BOTÁNICA
 
+Deploy: https://jonathanpoblet.github.io/jardineria/
+
 ![Project Image](https://github.com/jonathanpoblet/jardineria/assets/106752020/35bdaee9-7449-477f-a53d-86b0af573505)
 
 ---
